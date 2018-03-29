@@ -476,6 +476,14 @@
             },
         },
         {
+            name: "Beetlecoin",
+            segwitAvailable: false,
+            onSelect: function() {
+                network = bitcoin.networks.beetlecoin;
+                DOM.bip44coin.val(800);
+            },
+        },
+        {
             name: "Bitcoin",
             onSelect: function() {
                 network = bitcoin.networks.bitcoin;
